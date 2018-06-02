@@ -1,6 +1,5 @@
 package kr.co.mz.fnm.megablock.restapi.controller;
 
-import com.sun.xml.internal.bind.v2.model.core.ID;
 import kr.co.mz.fnm.megablock.restapi.entity.User;
 import kr.co.mz.fnm.megablock.restapi.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
