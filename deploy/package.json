@@ -1,13 +1,13 @@
 {
-  "id":"contract_sample",
+  "id":"mz_megablock",
   "version":"0.0.1",
   "auth":{
-    "name":"Theloop Dev Team",
-    "email":"dev@theloop.co.kr",
-    "org":"Theloop inc"
+    "name":"MZ FNM center",
+    "email":"fnm@mz.co.kr",
+    "org":"MEGAZONE"
   },
   "dependencies":{},
-  "description":"contract_sample",
+  "description":"megablock-contract",
   "repository":{
     "type":"git",
     "url":"git@github.com:theloopkr/contract_sample.git"
