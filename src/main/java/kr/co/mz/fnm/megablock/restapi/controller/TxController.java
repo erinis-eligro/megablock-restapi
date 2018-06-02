@@ -17,7 +17,7 @@ import java.util.Map;
 @RestController
 @RequestMapping(value = "/tx")
 public class TxController {
-    private static String baseUrl = "http://13.67.92.148:9000";
+    private static String baseUrl = "http://13.209.49.229:9000";
 
     @RequestMapping(value = "/invoke", method = RequestMethod.POST)
     @ResponseStatus(value = HttpStatus.OK)

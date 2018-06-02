@@ -13,7 +13,7 @@ import java.util.Map;
 @RestController
 @RequestMapping(value = "/rs")
 public class RSController {
-    private static String baseUrl = "http://13.67.92.148:9002";
+    private static String baseUrl = "http://13.209.49.229:9002";
 
     @RequestMapping(value = "/peer/list", method = RequestMethod.GET)
     @ResponseStatus(value = HttpStatus.OK)
