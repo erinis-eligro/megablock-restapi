@@ -3,10 +3,7 @@ package kr.co.mz.fnm.megablock.restapi.controller;
 import org.springframework.boot.json.BasicJsonParser;
 import org.springframework.boot.json.JsonParser;
 import org.springframework.http.*;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseStatus;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
@@ -20,6 +17,7 @@ public class RSController {
 
     @RequestMapping(value = "/peer/list", method = RequestMethod.GET)
     @ResponseStatus(value = HttpStatus.OK)
+    @ResponseBody
     public Map<String, Object> rsPeerList() {
         RestTemplate restTemplate = new RestTemplate();
 
